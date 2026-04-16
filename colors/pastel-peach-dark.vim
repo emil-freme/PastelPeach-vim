@@ -24,7 +24,7 @@ let s:cyan = "#B9FFFD"
 let s:green = "#B9FFDA"
 let s:red = "#DAB9FF"
 let s:purple = "#FFB9BB"
-let s:blue = "#B9DEFF"
+let s:blue = "#406080"
 let s:bright_purple = "#D96C75"
 let s:black = "#333333"
 
@@ -121,7 +121,7 @@ let g:terminal_color_0 = "#333333"  " black
 let g:terminal_color_1 = "#D96C75"  " brightPurple (used as red)
 let g:terminal_color_2 = "#B9FFDA"  " green
 let g:terminal_color_3 = "#FFFDB9"  " yellow
-let g:terminal_color_4 = "#B9DEFF"  " blue
+let g:terminal_color_4 = "#406080"  " blue
 let g:terminal_color_5 = "#FFB9BB"  " purple
 let g:terminal_color_6 = "#B9FFFD"  " cyan
 let g:terminal_color_7 = "#F2E6DA"  " foreground (as white)
