@@ -25,7 +25,7 @@ let s:t10  = "#8888FF"
 
 " Color Palette
 let s:bg            = "#FFE9D6"
-let s:bg_dark       = "#B59A81"
+let s:bg_dark       = "#FFD1A8"
 let s:fg            = "#242424"
 let s:comment       = "#85613D"
 let s:selection     = "#6946AB"
@@ -121,7 +121,7 @@ call s:Hi("Function", s:bright_cyan, "", "none", "235", "", "none")
 call s:Hi("Statement", s:bright_red, "", "bold", "88", "", "bold")
 call s:Hi("Keyword", s:bright_red, "", "bold", "88", "", "bold")
 call s:Hi("Conditional", s:bright_yellow, "", "bold", "88", "", "bold")
-call s:Hi("Repeat", s:t4, "", "bold", "88", "", "bold")
+call s:Hi("Repeat", s:yellow, "", "bold", "88", "", "bold")
 call s:Hi("Operator", s:bright_blue, "", "none", "235", "", "none")
 call s:Hi("Preproc", s:bright_yellow, "", "none", "60", "", "none")
 call s:Hi("Include", s:bright_yellow, "", "none", "60", "", "none")
