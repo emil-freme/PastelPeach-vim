@@ -15,17 +15,17 @@ let g:colors_name = "pastel-peach-dark"
 " Color Palette
 let s:bg = "#2D2A2E"
 let s:fg = "#F2E6DA"
-let s:bg_light = "#3A373B" " A slightly lighter background for UI elements
-let s:comment = "#707070"
-let s:selection = "#4A464B"
-let s:white = "#FFDAB9"
+let s:bg_light = "#78727A" " A slightly lighter background for UI elements
+let s:comment = "#957A5F"
+let s:selection = "#80608A"
+let s:white = "#FFE7D1"
 let s:yellow = "#FFFDB9"
 let s:cyan = "#B9FFFD"
 let s:green = "#B9FFDA"
-let s:red = "#DAB9FF"
-let s:purple = "#FFB9BB"
-let s:blue = "#406080"
-let s:bright_purple = "#D96C75"
+let s:red = "#FFA6A6"
+let s:purple = "#eed1ff"
+let s:blue = "#6BB5FF"
+let s:bright_purple = "#d875ff"
 let s:black = "#333333"
 
 " Helper function for highlighting
@@ -118,19 +118,19 @@ call s:Hi("SpecialComment", s:comment, "", "none", "242", "", "none")
 " ===================================================================
 
 let g:terminal_color_0 = "#333333"  " black
-let g:terminal_color_1 = "#D96C75"  " brightPurple (used as red)
+let g:terminal_color_1 = "#d875ff"  " brightPurple (used as red)
 let g:terminal_color_2 = "#B9FFDA"  " green
 let g:terminal_color_3 = "#FFFDB9"  " yellow
-let g:terminal_color_4 = "#406080"  " blue
-let g:terminal_color_5 = "#FFB9BB"  " purple
+let g:terminal_color_4 = "#6BB5FF"  " blue
+let g:terminal_color_5 = "#eed1ff"  " purple
 let g:terminal_color_6 = "#B9FFFD"  " cyan
-let g:terminal_color_7 = "#F2E6DA"  " foreground (as white)
-let g:terminal_color_8 = "#707070"  " brightBlack
-let g:terminal_color_9 = "#AC73E6"  " brightRed
-let g:terminal_color_10 = "#73E673" " brightGreen
-let g:terminal_color_11 = "#E6E673" " brightYellow
-let g:terminal_color_12 = "#73ACE6" " brightBlue
-let g:terminal_color_13 = "#DAB9FF" " red (used as brightPurple)
+let g:terminal_color_7 = "#FFE7D1"  " foreground (as white)
+let g:terminal_color_8 = "#78727A"  " brightBlack
+let g:terminal_color_9 = "#FF5765"  " brightRed
+let g:terminal_color_10 = "#5CFFA8" " brightGreen
+let g:terminal_color_11 = "#E3DF68" " brightYellow
+let g:terminal_color_12 = "#38CAFF" " brightBlue
+let g:terminal_color_13 = "#FFA6A6" " red (used as brightPurple)
 let g:terminal_color_14 = "#73E6E6" " brightCyan
 let g:terminal_color_15 = "#99918A" " brightWhite
 

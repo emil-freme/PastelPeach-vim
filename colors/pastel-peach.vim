@@ -24,26 +24,26 @@ let s:t9  = "#88FF88"
 let s:t10  = "#8888FF"
 
 " Color Palette
-let s:bg            = "#FFDAB9"
-let s:bg_dark       = "#F2CEAD"
+let s:bg            = "#FFE9D6"
+let s:bg_dark       = "#B59A81"
 let s:fg            = "#242424"
-let s:comment       = "#807060"
-let s:selection     = "#D1C4E9"
-let s:error_red     = "#C73B47"
-let s:white         = "#80644D"
-let s:yellow        = "#807E4D"
-let s:cyan          = "#4D807E"
-let s:green         = "#4D8064"
-let s:red           = "#644D80"
-let s:purple        = "#804D4E"
-let s:blue          = "#4D6880"
+let s:comment       = "#85613D"
+let s:selection     = "#6946AB"
+let s:error_red     = "#C03945"
+let s:white         = "#FFC596"
+let s:yellow        = "#524F00"
+let s:cyan          = "#005754"
+let s:green         = "#005728"
+let s:red           = "#6E00AD"
+let s:purple        = "#990000"
+let s:blue          = "#004A94"
 let s:bright_black  = "#080808"  
-let s:bright_red    = "#532680"  
-let s:bright_green  = "#268026" 
-let s:bright_yellow = "#808026" 
-let s:bright_blue   = "#265380" 
-let s:bright_purple = "#80262E" 
-let s:bright_cyan   = "#268080" 
+let s:bright_red    = "#9600ED"  
+let s:bright_green  = "#00853E" 
+let s:bright_yellow = "#787400" 
+let s:bright_blue   = "#0069D1" 
+let s:bright_purple = "#D90000" 
+let s:bright_cyan   = "#007874" 
 let s:bright_white  = "#4D443D" 
 
 " Helper function for highlighting
@@ -139,20 +139,20 @@ call s:Hi("SpecialComment", s:comment, s:error_red, "none", "95", "", "none")
 " ===================================================================
 
 let g:terminal_color_0 = "#242424"  " black
-let g:terminal_color_1 = "#644D80"  " brightPurple (used as red)
-let g:terminal_color_2 = "#4D8064"  " green
-let g:terminal_color_3 = "#807E4D"  " yellow
-let g:terminal_color_4 = "#4D6880"  " blue
-let g:terminal_color_5 = "#804D4E"  " purple
-let g:terminal_color_6 = "#4D807E"  " cyan
-let g:terminal_color_7 = "#80644D"  " white
+let g:terminal_color_1 = "#9600ED"  " brightPurple (used as red)
+let g:terminal_color_2 = "#005728"  " green
+let g:terminal_color_3 = "#524F00"  " yellow
+let g:terminal_color_4 = "#004A94"  " blue
+let g:terminal_color_5 = "#990000"  " purple
+let g:terminal_color_6 = "#005754"  " cyan
+let g:terminal_color_7 = "#FFC596"  " white
 let g:terminal_color_8 = "#080808"  " brightBlack
-let g:terminal_color_9 = "#532680"  " brightRed
-let g:terminal_color_10 = "#268026" " brightGreen
-let g:terminal_color_11 = "#808026" " brightYellow
-let g:terminal_color_12 = "#265380" " brightBlue
-let g:terminal_color_13 = "#80262E" " red (used as brightPurple)
-let g:terminal_color_14 = "#268080" " brightCyan
+let g:terminal_color_9 = "#9600ED"  " brightRed
+let g:terminal_color_10 = "#00853E" " brightGreen
+let g:terminal_color_11 = "#787400" " brightYellow
+let g:terminal_color_12 = "#0069D1" " brightBlue
+let g:terminal_color_13 = "#D90000" " red (used as brightPurple)
+let g:terminal_color_14 = "#007874" " brightCyan
 let g:terminal_color_15 = "#4D443D" " brightWhite
 
 " Cleanup function
